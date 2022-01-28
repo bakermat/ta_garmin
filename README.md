@@ -1,3 +1,8 @@
+### Update January 28, 2022
+The Garmin authentication doesn't work anymore due to the changes Garmin made to their API, see [Issues](https://github.com/bakermat/ta_garmin/issues/1). I am no longer using Garmin myself and can't justify spending time on this, so help is appreciated. If you open a pull request for a fix and I can verify it works, I will add it to Splunkbase. 
+
+---
+
 ##### Summary
 This TA gets your Garmin Connect activities and daily user summaries into Splunk. It will retrieve all items initially and once complete, it only does incremental import of new items.
 
